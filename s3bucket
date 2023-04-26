@@ -9,7 +9,7 @@ tags = {
     Name = "TF-Instance1"
 }
 }
-resource "aws_s3_bucket" "bucketdemo" {
+resource "aws_s3_bucket" "s3bucketdemo" {
   bucket = "my-tf-test-bucket"
 
   tags = {
